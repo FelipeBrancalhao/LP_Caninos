@@ -1,0 +1,1342 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Caninos Pet Shop – Banho e Tosa em Sorocaba</title>
+  <meta name="description" content="Excelência em banho e tosa para o seu pet em Sorocaba. Ambiente seguro, atendimento profissional. Agende agora pelo WhatsApp!" />
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '764505039259335');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=764505039259335&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+  <!-- GOOGLE TAG MANAGER -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=SEU_GTM_ID"></script> -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Merriweather:wght@700;900&display=swap" rel="stylesheet" />
+
+  <template id="__bundler_thumbnail" data-bg-color="#1C1410">
+    <svg viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+      <rect width="400" height="300" fill="#1C1410"/>
+      <rect x="0" y="0" width="400" height="56" fill="#161008"/>
+      <rect x="140" y="16" width="120" height="24" rx="4" fill="#F5A623" opacity=".9"/>
+      <rect x="0" y="56" width="400" height="160" fill="#222"/>
+      <rect x="40" y="80" width="200" height="22" rx="3" fill="white" opacity=".85"/>
+      <rect x="40" y="112" width="160" height="12" rx="2" fill="white" opacity=".4"/>
+      <rect x="40" y="132" width="130" height="12" rx="2" fill="white" opacity=".3"/>
+      <rect x="40" y="160" width="130" height="38" rx="19" fill="#25D366"/>
+      <rect x="260" y="70" width="110" height="140" rx="12" fill="#F5A623" opacity=".2"/>
+      <rect x="270" y="82" width="90" height="116" rx="8" fill="#333"/>
+    </svg>
+  </template>
+
+  <style>
+    :root {
+      --orange:       #F5A623;
+      --orange-dark:  #C8850D;
+      --orange-light: #FFF4DC;
+      --charcoal:     #1C1410;
+      --brown:        #3D2914;
+      --brown-mid:    #6B4C2A;
+      --warm-white:   #FDFAF5;
+      --off-white:    #F5F0E8;
+      --border:       rgba(61,41,20,.10);
+      --font-body:    'Lato', sans-serif;
+      --font-head:    'Merriweather', Georgia, serif;
+      --radius:       16px;
+      --radius-sm:    8px;
+      --shadow:       0 2px 20px rgba(28,20,16,.08);
+      --shadow-lg:    0 8px 48px rgba(28,20,16,.16);
+      --base-size:    18px;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      font-size: var(--base-size);
+      background: var(--warm-white);
+      color: var(--charcoal);
+      overflow-x: hidden;
+      line-height: 1.6;
+    }
+    img { max-width: 100%; display: block; object-fit: cover; }
+    a { text-decoration: none; color: inherit; }
+
+    .container { max-width: 1100px; margin: 0 auto; padding: 0 28px; }
+    .section    { padding: 96px 0; }
+
+    .eyebrow {
+      display: inline-flex; align-items: center; gap: 10px;
+      font-family: var(--font-body);
+      font-size: 13px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--orange-dark);
+      margin-bottom: 18px;
+    }
+    .eyebrow::before {
+      content: ''; display: block; width: 28px; height: 2px;
+      background: var(--orange); flex-shrink: 0;
+    }
+
+    .section-title {
+      font-family: var(--font-head);
+      font-size: clamp(28px, 3.5vw, 44px);
+      font-weight: 900; line-height: 1.2;
+      color: var(--charcoal); text-wrap: pretty;
+    }
+    .section-sub {
+      font-size: 18px; font-weight: 400;
+      color: var(--brown-mid); margin-top: 16px; line-height: 1.75;
+    }
+
+    /* ── BUTTONS ── */
+    .btn-wa {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: #25D366; color: #fff;
+      font-family: var(--font-body); font-weight: 700; font-size: 17px;
+      padding: 17px 34px; border-radius: 100px; border: none; cursor: pointer;
+      box-shadow: 0 4px 24px rgba(37,211,102,.35);
+      transition: transform .18s, box-shadow .18s;
+    }
+    .btn-wa:hover { transform: translateY(-2px); box-shadow: 0 8px 32px rgba(37,211,102,.45); }
+
+    .btn-outline {
+      display: inline-flex; align-items: center; gap: 8px;
+      background: transparent; color: rgba(255,255,255,.6);
+      font-family: var(--font-body); font-weight: 700; font-size: 16px;
+      padding: 15px 30px; border-radius: 100px;
+      border: 2px solid rgba(255,255,255,.15); cursor: pointer;
+      transition: border-color .18s, color .18s;
+    }
+    .btn-outline:hover { border-color: var(--orange); color: var(--orange); }
+
+    /* ── NAV ── */
+    nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: rgba(253,250,245,.96); backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border); padding: 12px 0;
+      transition: box-shadow .2s;
+    }
+    nav.scrolled { box-shadow: 0 2px 24px rgba(28,20,16,.10); }
+    .nav-inner {
+      display: flex; align-items: center; justify-content: space-between;
+      max-width: 1100px; margin: 0 auto; padding: 0 28px;
+    }
+    .nav-logo { display: flex; align-items: center; gap: 10px; }
+    .nav-logo img { width: 42px; height: 42px; border-radius: 10px; object-fit: cover; }
+    .nav-logo-text {
+      font-family: var(--font-head);
+      font-size: 18px; font-weight: 900;
+      color: var(--charcoal); letter-spacing: -.3px;
+    }
+    .nav-logo-text span { color: var(--orange-dark); }
+    .nav-right { display: flex; align-items: center; gap: 18px; }
+    .nav-phone {
+      font-size: 15px; font-weight: 700; color: var(--brown-mid);
+      display: flex; align-items: center; gap: 6px;
+    }
+    .nav-cta {
+      display: inline-flex; align-items: center; gap: 7px;
+      background: #25D366; color: #fff;
+      font-family: var(--font-body); font-weight: 700; font-size: 14px;
+      padding: 11px 22px; border-radius: 100px;
+      box-shadow: 0 2px 12px rgba(37,211,102,.3);
+      transition: transform .15s;
+    }
+    .nav-cta:hover { transform: scale(1.04); }
+
+    /* ── HERO ── */
+    #hero {
+      padding-top: 80px;
+      background: var(--charcoal);
+      position: relative; overflow: hidden;
+      min-height: 92vh; display: flex; align-items: center;
+    }
+    .hero-accent {
+      position: absolute; right: -100px; top: -120px;
+      width: 560px; height: 560px; border-radius: 50%;
+      background: radial-gradient(circle, rgba(245,166,35,.16) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-inner {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 56px; align-items: center;
+      max-width: 1100px; margin: 0 auto;
+      padding: 80px 28px;
+      position: relative; z-index: 1;
+    }
+    .hero-eyebrow {
+      display: inline-flex; align-items: center; gap: 8px;
+      font-size: 13px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--orange); margin-bottom: 22px;
+    }
+    .hero-eyebrow-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--orange); }
+    .hero-title {
+      font-family: var(--font-head);
+      font-size: clamp(36px, 5vw, 62px);
+      font-weight: 900; line-height: 1.1;
+      color: #fff; margin-bottom: 22px; text-wrap: pretty;
+    }
+    .hero-title em { font-style: normal; color: var(--orange); }
+    .hero-sub {
+      font-size: 19px; font-weight: 400;
+      color: rgba(255,255,255,.6); margin-bottom: 40px;
+      line-height: 1.75; max-width: 500px;
+    }
+    .hero-actions { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+    .hero-trust-row {
+      display: flex; align-items: center; gap: 24px;
+      margin-top: 48px; padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,.08); flex-wrap: wrap;
+    }
+    .hero-trust-item { display: flex; align-items: center; gap: 10px; }
+    .hero-trust-icon {
+      width: 38px; height: 38px; border-radius: 9px;
+      background: rgba(245,166,35,.15);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 18px; flex-shrink: 0;
+    }
+    .hero-trust-text { font-size: 14px; font-weight: 400; color: rgba(255,255,255,.5); line-height: 1.4; }
+    .hero-trust-text strong { display: block; color: rgba(255,255,255,.85); font-weight: 700; font-size: 15px; }
+
+    /* Hero image grid */
+    .hero-photos {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+      gap: 12px;
+      height: 480px;
+    }
+    .hero-photo-main {
+      grid-row: 1 / 3;
+      border-radius: 20px;
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-photo-main img { width: 100%; height: 100%; object-fit: cover; }
+    .hero-photo-sm {
+      border-radius: 14px; overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-photo-sm img { width: 100%; height: 100%; object-fit: cover; }
+
+    /* ── SOCIAL PROOF ── */
+    #proof-bar { background: var(--orange); padding: 0; }
+    .proof-grid { display: grid; grid-template-columns: repeat(4, 1fr); }
+    .proof-item {
+      padding: 40px 24px; text-align: center;
+      border-right: 1px solid rgba(28,20,16,.12);
+    }
+    .proof-item:last-child { border-right: none; }
+    .proof-number {
+      font-family: var(--font-head);
+      font-size: clamp(36px, 4vw, 52px); font-weight: 900;
+      color: var(--charcoal); line-height: 1; margin-bottom: 8px;
+    }
+    .proof-label {
+      font-size: 13px; font-weight: 700;
+      color: rgba(28,20,16,.6); text-transform: uppercase; letter-spacing: 1px;
+    }
+
+    /* ── SERVICES ── */
+    #servicos { background: var(--warm-white); }
+    .services-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 28px; margin-top: 56px;
+    }
+    .service-card {
+      background: #fff; border-radius: var(--radius);
+      border: 1px solid var(--border); box-shadow: var(--shadow);
+      overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: transform .2s, box-shadow .2s, border-color .2s;
+    }
+    .service-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-lg); border-color: var(--orange); }
+    .service-card.featured { background: var(--charcoal); border-color: transparent; }
+    .service-img {
+      width: 100%; height: 220px;
+      overflow: hidden; position: relative;
+    }
+    .service-img img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+    .service-card:hover .service-img img { transform: scale(1.04); }
+    .service-body {
+      padding: 28px;
+      display: flex; flex-direction: column; flex: 1;
+    }
+    .service-name {
+      font-family: var(--font-head);
+      font-size: 20px; font-weight: 900;
+      color: var(--charcoal); margin-bottom: 12px;
+    }
+    .service-card.featured .service-name { color: #fff; }
+    .service-desc {
+      font-size: 15px; font-weight: 400;
+      color: var(--brown-mid); line-height: 1.7;
+      flex: 1;
+    }
+    .service-card.featured .service-desc { color: rgba(255,255,255,.55); }
+    .service-badge {
+      display: inline-flex; align-items: center; gap: 6px;
+      margin-top: 18px;
+      font-size: 14px; font-weight: 700; color: var(--orange-dark);
+      background: var(--orange-light); border-radius: 100px;
+      padding: 8px 18px; transition: background .18s, color .18s;
+      cursor: pointer; text-decoration: none;
+    }
+    .service-badge:hover { background: var(--orange); color: var(--charcoal); }
+    .service-card.featured .service-badge { background: rgba(245,166,35,.15); color: var(--orange); }
+    .service-card.featured .service-badge:hover { background: var(--orange); color: var(--charcoal); }
+    .service-tag {
+      display: inline-flex; align-items: center; gap: 6px;
+      font-size: 12px; font-weight: 700; letter-spacing: 1px;
+      text-transform: uppercase; color: var(--orange-dark);
+      background: var(--orange-light); padding: 5px 12px; border-radius: 100px;
+      margin-bottom: 14px;
+    }
+    .service-card.featured .service-tag { background: rgba(245,166,35,.15); color: var(--orange); }
+
+    /* ── DIFERENCIAIS ── */
+    #diferenciais { background: var(--off-white); }
+    .diff-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 72px; align-items: center; margin-top: 56px;
+    }
+    .diff-visual { position: relative; }
+    .diff-img-main {
+      width: 100%; aspect-ratio: 3/4;
+      border-radius: var(--radius); overflow: hidden;
+      box-shadow: var(--shadow-lg);
+    }
+    .diff-img-main img { width: 100%; height: 100%; object-fit: cover; }
+    .diff-stat {
+      position: absolute; bottom: -20px; right: -20px;
+      background: var(--orange); color: var(--charcoal);
+      padding: 20px 26px; border-radius: var(--radius-sm);
+      box-shadow: var(--shadow-lg); text-align: center;
+    }
+    .diff-stat strong {
+      display: block; font-family: var(--font-head);
+      font-size: 38px; font-weight: 900; line-height: 1;
+    }
+    .diff-stat span { font-size: 13px; font-weight: 700; opacity: .7; }
+
+    .diff-list { display: flex; flex-direction: column; gap: 28px; }
+    .diff-item { display: flex; gap: 18px; align-items: flex-start; }
+    .diff-check {
+      width: 42px; height: 42px; flex-shrink: 0;
+      border-radius: 10px; background: var(--orange-light);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .diff-check svg { width: 20px; height: 20px; color: var(--orange-dark); }
+    .diff-text h3 {
+      font-family: var(--font-head);
+      font-size: 17px; font-weight: 700; color: var(--charcoal); margin-bottom: 6px;
+    }
+    .diff-text p { font-size: 15px; font-weight: 400; color: var(--brown-mid); line-height: 1.7; }
+
+    /* ── GALERIA ── */
+    #galeria { background: var(--charcoal); padding: 80px 0; }
+    .galeria-title {
+      font-family: var(--font-head);
+      font-size: clamp(26px, 3vw, 38px); font-weight: 900;
+      color: #fff; margin-bottom: 8px;
+    }
+    .galeria-sub { font-size: 17px; color: rgba(255,255,255,.4); margin-bottom: 40px; }
+    .galeria-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: 260px 260px;
+      gap: 12px;
+    }
+    .galeria-item { border-radius: 12px; overflow: hidden; }
+    .galeria-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+    .galeria-item:hover img { transform: scale(1.05); }
+    .galeria-item.tall { grid-row: 1 / 3; }
+    /* 7 items: tall(col1,rows1-2) + 3(row1) + 3(row2) = fills 4×2 perfectly */
+
+    /* ── PRECOS ── */
+    #precos { background: var(--warm-white); }
+    .precos-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 56px;
+    }
+    .preco-card {
+      background: #fff; border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 36px 30px;
+      display: flex; flex-direction: column;
+      transition: transform .2s, box-shadow .2s;
+      box-shadow: var(--shadow);
+    }
+    .preco-card.destaque {
+      background: var(--charcoal); border-color: transparent;
+      box-shadow: var(--shadow-lg);
+    }
+    .preco-card:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); }
+    .preco-porte {
+      font-size: 12px; font-weight: 700; letter-spacing: 2px;
+      text-transform: uppercase; color: var(--brown-mid); margin-bottom: 8px;
+    }
+    .preco-card.destaque .preco-porte { color: rgba(255,255,255,.45); }
+    .preco-name {
+      font-family: var(--font-head);
+      font-size: 20px; font-weight: 900; color: var(--charcoal); margin-bottom: 24px;
+    }
+    .preco-card.destaque .preco-name { color: #fff; }
+    .preco-value {
+      font-family: var(--font-head);
+      font-size: 54px; font-weight: 900; color: var(--orange-dark);
+      line-height: 1; margin-bottom: 4px;
+    }
+    .preco-card.destaque .preco-value { color: var(--orange); }
+    .preco-desde { font-size: 13px; font-weight: 400; color: var(--brown-mid); margin-bottom: 28px; }
+    .preco-card.destaque .preco-desde { color: rgba(255,255,255,.4); }
+    .preco-divider { height: 1px; background: var(--border); margin-bottom: 24px; }
+    .preco-card.destaque .preco-divider { background: rgba(255,255,255,.1); }
+    .preco-items {
+      list-style: none; display: flex; flex-direction: column;
+      gap: 12px; margin-bottom: 32px; flex: 1;
+    }
+    .preco-items li {
+      display: flex; align-items: center; gap: 10px;
+      font-size: 15px; font-weight: 400; color: var(--brown-mid);
+    }
+    .preco-card.destaque .preco-items li { color: rgba(255,255,255,.65); }
+    .preco-check {
+      width: 20px; height: 20px; border-radius: 50%; flex-shrink: 0;
+      background: var(--orange-light);
+      display: flex; align-items: center; justify-content: center;
+    }
+    .preco-check svg { width: 11px; height: 11px; color: var(--orange-dark); }
+    .preco-card.destaque .preco-check { background: rgba(245,166,35,.2); }
+    .preco-card.destaque .preco-check svg { color: var(--orange); }
+    .btn-wa-sm {
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+      width: 100%; background: #25D366; color: #fff;
+      font-family: var(--font-body); font-weight: 700; font-size: 15px;
+      padding: 15px 20px; border-radius: 100px; border: none; cursor: pointer;
+      box-shadow: 0 3px 14px rgba(37,211,102,.3);
+      transition: transform .15s, box-shadow .15s;
+    }
+    .btn-wa-sm:hover { transform: translateY(-2px); }
+    .btn-wa-dark {
+      background: var(--charcoal);
+      box-shadow: 0 3px 14px rgba(28,20,16,.25);
+    }
+    .pagamento-row {
+      display: flex; align-items: center; justify-content: center;
+      gap: 10px; margin-top: 36px; flex-wrap: wrap;
+    }
+    .pagamento-label { font-size: 14px; font-weight: 700; color: var(--brown-mid); }
+    .pagamento-tag {
+      display: inline-flex; align-items: center; gap: 5px;
+      background: var(--off-white); border: 1px solid var(--border);
+      padding: 7px 16px; border-radius: 100px;
+      font-size: 14px; font-weight: 700; color: var(--brown-mid);
+    }
+
+    /* ── DEPOIMENTOS ── */
+    #depoimentos { background: var(--off-white); }
+    .depo-grid {
+      display: grid; grid-template-columns: repeat(3, 1fr);
+      gap: 24px; margin-top: 56px;
+    }
+    .depo-card {
+      background: #fff; border-radius: var(--radius);
+      padding: 32px; border: 1px solid var(--border); box-shadow: var(--shadow);
+    }
+    .depo-stars { display: flex; gap: 3px; margin-bottom: 18px; }
+    .depo-star { width: 18px; height: 18px; fill: var(--orange); }
+    .depo-text {
+      font-size: 16px; font-weight: 400; color: var(--brown-mid);
+      line-height: 1.75; margin-bottom: 24px; font-style: italic;
+    }
+    .depo-divider { height: 1px; background: var(--border); margin-bottom: 20px; }
+    .depo-author { display: flex; align-items: center; gap: 13px; }
+    .depo-avatar {
+      width: 44px; height: 44px; border-radius: 50%; flex-shrink: 0;
+      background: var(--orange-light); border: 2px solid var(--orange-light);
+      display: flex; align-items: center; justify-content: center;
+      font-weight: 700; font-size: 17px; color: var(--orange-dark);
+    }
+    .depo-name { font-size: 15px; font-weight: 700; color: var(--charcoal); }
+    .depo-pet  { font-size: 13px; font-weight: 400; color: var(--brown-mid); margin-top: 2px; }
+
+    /* ── COMO FUNCIONA ── */
+    #como-funciona { background: var(--warm-white); }
+    .steps-wrap {
+      display: grid; grid-template-columns: repeat(4, 1fr);
+      gap: 0; margin-top: 64px; position: relative;
+    }
+    .steps-line {
+      position: absolute; top: 24px; left: 12.5%; right: 12.5%;
+      height: 1px; background: var(--border); z-index: 0;
+    }
+    .step { text-align: center; padding: 0 16px; position: relative; z-index: 1; }
+    .step-num {
+      width: 48px; height: 48px; border-radius: 50%;
+      background: var(--charcoal); color: var(--orange);
+      font-family: var(--font-head); font-size: 17px; font-weight: 900;
+      display: flex; align-items: center; justify-content: center;
+      margin: 0 auto 22px;
+    }
+    .step-title {
+      font-family: var(--font-head);
+      font-size: 16px; font-weight: 700; color: var(--charcoal); margin-bottom: 10px;
+    }
+    .step-desc { font-size: 15px; font-weight: 400; color: var(--brown-mid); line-height: 1.65; }
+
+    /* ── LOCALIZAÇÃO ── */
+    #localizacao { background: var(--charcoal); }
+    #localizacao .section-title { color: #fff; }
+    #localizacao .section-sub   { color: rgba(255,255,255,.4); }
+    .loc-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 56px; margin-top: 56px; align-items: start;
+    }
+    .info-group { display: flex; flex-direction: column; gap: 32px; }
+    .info-item  { display: flex; gap: 18px; }
+    .info-icon {
+      width: 46px; height: 46px; flex-shrink: 0;
+      border-radius: 10px; background: rgba(245,166,35,.1);
+      display: flex; align-items: center; justify-content: center; font-size: 22px;
+    }
+    .info-content h3 {
+      font-size: 12px; font-weight: 700; color: rgba(255,255,255,.4);
+      text-transform: uppercase; letter-spacing: 1.5px; margin-bottom: 7px;
+    }
+    .info-content p, .info-content a {
+      font-size: 16px; font-weight: 400; color: rgba(255,255,255,.75); line-height: 1.7;
+    }
+    .info-content a:hover { color: var(--orange); }
+    .horario-table { width: 100%; }
+    .horario-table tr { border-bottom: 1px solid rgba(255,255,255,.06); }
+    .horario-table tr:last-child { border: none; }
+    .horario-table td { padding: 10px 0; font-size: 15px; font-weight: 400; color: rgba(255,255,255,.6); }
+    .horario-table td:first-child { font-weight: 700; color: rgba(255,255,255,.85); }
+    .horario-table td:last-child  { text-align: right; }
+    .horario-table .fechado td   { color: rgba(255,255,255,.25); }
+    .map-wrap {
+      width: 100%; aspect-ratio: 4/3; border-radius: var(--radius);
+      overflow: hidden; border: 1px solid rgba(255,255,255,.08);
+    }
+    .map-wrap iframe { width: 100%; height: 100%; border: none; }
+
+    /* ── CTA FINAL ── */
+    #cta-final { background: var(--orange); padding: 112px 0; text-align: center; }
+    #cta-final .section-title { color: var(--charcoal); }
+    #cta-final .section-sub   { color: rgba(28,20,16,.6); margin-bottom: 40px; }
+
+    /* ── FOOTER ── */
+    footer { background: #0F0A06; padding: 48px 0; }
+    .footer-inner { display: flex; flex-direction: column; align-items: center; gap: 22px; }
+    .footer-logo { display: flex; align-items: center; gap: 10px; }
+    .footer-logo img { width: 34px; height: 34px; border-radius: 8px; object-fit: cover; }
+    .footer-logo-text {
+      font-family: var(--font-head);
+      font-size: 17px; font-weight: 700; color: rgba(255,255,255,.8);
+    }
+    .footer-links { display: flex; gap: 30px; flex-wrap: wrap; justify-content: center; }
+    .footer-links a { font-size: 14px; font-weight: 700; color: rgba(255,255,255,.3); transition: color .15s; }
+    .footer-links a:hover { color: var(--orange); }
+    .footer-copy { font-size: 13px; color: rgba(255,255,255,.2); text-align: center; line-height: 1.8; }
+
+    /* ── FLOATING BUTTON ── */
+    .float-wa {
+      position: fixed; bottom: 28px; right: 28px; z-index: 999;
+      width: 62px; height: 62px; border-radius: 50%;
+      background: #25D366;
+      display: flex; align-items: center; justify-content: center;
+      box-shadow: 0 4px 24px rgba(37,211,102,.5);
+      transition: transform .2s; animation: wa-pulse 3s ease-in-out infinite;
+    }
+    .float-wa:hover { transform: scale(1.08); }
+    @keyframes wa-pulse {
+      0%,100% { box-shadow: 0 4px 24px rgba(37,211,102,.5), 0 0 0 0 rgba(37,211,102,.4); }
+      55%      { box-shadow: 0 4px 24px rgba(37,211,102,.5), 0 0 0 14px rgba(37,211,102,0); }
+    }
+    .float-label {
+      position: absolute; right: 74px;
+      background: var(--charcoal); color: #fff;
+      font-size: 13px; font-weight: 700;
+      padding: 8px 14px; border-radius: 6px; white-space: nowrap;
+      opacity: 0; transform: translateX(6px);
+      transition: opacity .18s, transform .18s; pointer-events: none;
+    }
+    .float-label::after {
+      content: ''; position: absolute; right: -5px; top: 50%; transform: translateY(-50%);
+      border: 5px solid transparent; border-right: none; border-left-color: var(--charcoal);
+    }
+    .float-wa:hover .float-label { opacity: 1; transform: translateX(0); }
+
+    /* ── TWEAKS ── */
+    #tweaks-panel {
+      display: none; position: fixed; bottom: 104px; right: 28px; z-index: 998;
+      background: #fff; border-radius: 14px; box-shadow: var(--shadow-lg);
+      padding: 22px; width: 260px; border: 1px solid var(--border);
+    }
+    #tweaks-panel h4 {
+      font-size: 11px; font-weight: 700; color: var(--brown-mid);
+      letter-spacing: 1.5px; text-transform: uppercase; margin-bottom: 18px;
+    }
+    .tw-row { display: flex; flex-direction: column; gap: 6px; margin-bottom: 14px; }
+    .tw-row label { font-size: 11px; font-weight: 700; color: rgba(100,80,60,.5); text-transform: uppercase; letter-spacing: .5px; }
+    .tw-row input[type=color] { width: 100%; height: 38px; border-radius: 8px; border: 1px solid var(--border); cursor: pointer; padding: 3px; }
+    .tw-row select { width: 100%; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--border); font-family: var(--font-body); font-size: 14px; color: var(--charcoal); background: var(--warm-white); }
+
+    /* ── REVEAL ── */
+    .reveal { opacity: 0; transform: translateY(22px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.in { opacity: 1; transform: none; }
+    #hero .reveal { opacity: 1; transform: none; transition: none; }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 960px) {
+      .hero-inner { grid-template-columns: 1fr; }
+      .hero-photos { display: none; }
+      .proof-grid { grid-template-columns: repeat(2, 1fr); }
+      .proof-item { border-right: none; border-bottom: 1px solid rgba(28,20,16,.1); }
+      .services-grid { grid-template-columns: 1fr; max-width: 480px; margin-left: auto; margin-right: auto; }
+      .diff-grid { grid-template-columns: 1fr; }
+      .diff-visual { display: none; }
+      .galeria-grid { grid-template-columns: repeat(2, 1fr); grid-template-rows: auto; }
+      .galeria-item.tall { grid-row: auto; }
+      .precos-grid { grid-template-columns: 1fr; max-width: 420px; margin-left: auto; margin-right: auto; }
+      .depo-grid { grid-template-columns: 1fr; max-width: 480px; margin-left: auto; margin-right: auto; }
+      .steps-wrap { grid-template-columns: repeat(2, 1fr); gap: 40px; }
+      .steps-line { display: none; }
+      .loc-grid { grid-template-columns: 1fr; }
+      .alem-grid { grid-template-columns: repeat(2, 1fr) !important; }
+      #taxidog .container > div { grid-template-columns: 1fr !important; }
+      #taxidog .container > div > div:last-child { display: none; }
+    }
+    @media (max-width: 540px) {
+      :root { --base-size: 17px; }
+      .steps-wrap { grid-template-columns: 1fr; }
+      .float-wa { bottom: 20px; right: 20px; width: 56px; height: 56px; }
+      .hero-actions { flex-direction: column; align-items: flex-start; width: 100%; }
+      .btn-wa, .btn-outline { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══ NAV ══ -->
+<nav id="navbar">
+  <div class="nav-inner">
+    <a href="#hero" class="nav-logo">
+      <img src="assets/logo-caninos.jpg" alt="Caninos Pet Shop" />
+      <span class="nav-logo-text">caninos <span>pet shop</span></span>
+    </a>
+    <div class="nav-right">
+      <span class="nav-phone">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.02-.24c1.12.37 2.33.57 3.57.57a1 1 0 011 1V20a1 1 0 01-1 1C10.18 21 3 13.82 3 5a1 1 0 011-1h3.5a1 1 0 011 1c0 1.25.2 2.45.57 3.57a1 1 0 01-.25 1.02l-2.2 2.2z"/></svg>
+        (15) 98800-0892
+      </span>
+      <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20agendar%20um%20banho%20e%20tosa!" class="nav-cta" target="_blank" rel="noopener">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Agendar agora
+      </a>
+    </div>
+  </div>
+</nav>
+
+<!-- ══ HERO ══ -->
+<section id="hero">
+  <div class="hero-accent"></div>
+  <div class="hero-inner">
+    <div class="reveal">
+      <div class="hero-eyebrow">
+        <div class="hero-eyebrow-dot"></div>
+        Pet Shop em Sorocaba · SP
+      </div>
+      <h1 class="hero-title">
+        O cuidado que<br>o seu pet <em>merece</em>,<br>com quem entende.
+      </h1>
+      <p class="hero-sub">
+        Excelência em banho e tosa com profissionais apaixonados e um ambiente projetado para o conforto e bem-estar do seu animal.
+      </p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20agendar%20um%20banho%20e%20tosa%20para%20o%20meu%20pet!" class="btn-wa" target="_blank" rel="noopener">
+          <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar pelo WhatsApp
+        </a>
+        <a href="#servicos" class="btn-outline">Ver serviços e preços</a>
+      </div>
+      <div class="hero-trust-row">
+        <div class="hero-trust-item">
+          <div class="hero-trust-icon">🏠</div>
+          <div class="hero-trust-text">
+            <strong>Ambiente seguro</strong>
+            Estrutura preparada
+          </div>
+        </div>
+        <div class="hero-trust-item">
+          <div class="hero-trust-icon">⏱</div>
+          <div class="hero-trust-text">
+            <strong>Sem espera</strong>
+            Agendamento garantido
+          </div>
+        </div>
+        <div class="hero-trust-item">
+          <div class="hero-trust-icon">💛</div>
+          <div class="hero-trust-text">
+            <strong>Atendimento cuidadoso</strong>
+            Equipe apaixonada
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-photos reveal">
+      <div class="hero-photo-main">
+        <img src="assets/fachada.jpg" alt="Fachada Caninos Pet Shop" />
+      </div>
+      <div class="hero-photo-sm">
+        <img src="assets/equipe.jpg" alt="Equipe Caninos" />
+      </div>
+      <div class="hero-photo-sm">
+        <img src="assets/dog-entrada.jpg" alt="Pet na Caninos" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PROVA SOCIAL ══ -->
+<section id="proof-bar">
+  <div class="proof-grid">
+    <div class="proof-item reveal">
+      <div class="proof-number" data-target="500" data-prefix="+" data-suffix="">0</div>
+      <div class="proof-label">Pets atendidos</div>
+    </div>
+    <div class="proof-item reveal">
+      <div class="proof-number">5,0 ★</div>
+      <div class="proof-label">Avaliação no Google</div>
+    </div>
+    <div class="proof-item reveal">
+      <div class="proof-number" data-target="8" data-prefix="" data-suffix="+">0</div>
+      <div class="proof-label">Anos de experiência</div>
+    </div>
+    <div class="proof-item reveal">
+      <div class="proof-number" data-target="100" data-prefix="" data-suffix="%">0</div>
+      <div class="proof-label">Satisfação garantida</div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ SERVIÇOS ══ -->
+<section id="servicos" class="section">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Serviços</div>
+      <h2 class="section-title">Tudo que o seu pet precisa,<br>em um só lugar.</h2>
+      <p class="section-sub" style="max-width:540px">Profissionais treinados, produtos de qualidade e um espaço pensado para o bem-estar do seu animal.</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card reveal">
+        <div class="service-img">
+          <img src="assets/banho-servico.png" alt="Banho e Tosa" style="object-position: center top; object-fit: cover; margin: 0px" />
+        </div>
+        <div class="service-body">
+          <div class="service-tag">✦ Mais solicitado</div>
+          <div class="service-name">Banho &amp; Tosa</div>
+          <div class="service-desc">Banho com shampoo e condicionador premium, secagem profissional, perfume suave e tosa personalizada. Inclui <strong>Cromoterapia</strong> e <strong>Ozonioterapia</strong> para o bem-estar e saúde da pele do seu pet.</div>
+          <a href="#precos" class="service-badge">A partir de R$ 85,00 →</a>
+        </div>
+      </div>
+      <div class="service-card featured reveal">
+        <div class="service-img">
+          <img src="assets/creche-indoor-servico.png" alt="Creche Indoor" style="object-position:center 40%" />
+        </div>
+        <div class="service-body">
+          <div class="service-tag">🏠 Indoor</div>
+          <div class="service-name">Creche Indoor</div>
+          <div class="service-desc">Ambiente 100% coberto e seguro. Faça chuva ou faça sol, seu pet brinca, socializa e é supervisionado por nossa equipe o dia todo — sem estresse, com muito amor.</div>
+          <a href="#precos" class="service-badge">A partir de R$ 45,00 →</a>
+        </div>
+      </div>
+      <div class="service-card reveal">
+        <div class="service-img">
+          <img src="assets/hotel-bulldog.jpg" alt="Hotel para pets" />
+        </div>
+        <div class="service-body">
+          <div class="service-tag">🌙 Hospedagem</div>
+          <div class="service-name">Hotel</div>
+          <div class="service-desc">Seu pet hospedado com todo o conforto e carinho que merece. Acomodações individuais, alimentação controlada e acompanhamento constante da nossa equipe.</div>
+          <a href="#precos" class="service-badge">A partir de R$ 120,00 →</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ DIFERENCIAIS ══ -->
+<section id="diferenciais" class="section">
+  <div class="container">
+    <div class="diff-grid">
+      <div class="diff-visual reveal">
+        <div class="diff-img-main">
+          <img src="assets/fachada.jpg" alt="Fachada Caninos Pet Shop" />
+        </div>
+        <div class="diff-stat">
+          <strong>+500</strong>
+          <span>pets atendidos</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="eyebrow">Por que a Caninos?</div>
+        <h2 class="section-title">Seu pet merece um cuidado que vai além do básico.</h2>
+        <div class="diff-list" style="margin-top:36px">
+          <div class="diff-item">
+            <div class="diff-check">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="diff-text">
+              <h3>Creche Indoor — faça chuva ou faça sol</h3>
+              <p>Ambiente totalmente coberto e seguro. Seu pet brinca, socializa e é supervisionado mesmo nos dias de mau tempo. Sem estresse, sem risco.</p>
+            </div>
+          </div>
+          <div class="diff-item">
+            <div class="diff-check">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="diff-text">
+              <h3>Taxi Dog — buscamos e levamos o seu pet</h3>
+              <p>Você não precisa sair de casa. Buscamos o seu pet, cuidamos com carinho e entregamos de volta lindo e cheiroso — raio de até 6 km da Caninos. Consulte disponibilidade com nossa equipe.</p>
+            </div>
+          </div>
+          <div class="diff-item">
+            <div class="diff-check">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="diff-text">
+              <h3>Agendamento sem fila de espera</h3>
+              <p>Respeitamos o seu tempo. Cada atendimento é marcado com hora certa, sem demora nem imprevistos.</p>
+            </div>
+          </div>
+          <div class="diff-item">
+            <div class="diff-check">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="diff-text">
+              <h3>Equipe treinada e apaixonada</h3>
+              <p>Nossa equipe trata cada pet como se fosse o próprio. Paciência, carinho e profissionalismo em cada atendimento.</p>
+            </div>
+          </div>
+          <div class="diff-item">
+            <div class="diff-check">
+              <svg viewBox="0 0 20 20" fill="none"><path d="M4 10l4 4 8-8" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div class="diff-text">
+              <h3>Pagamento facilitado</h3>
+              <p>Aceitamos cartão de crédito, débito, PIX e dinheiro. Comodidade total para você.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ GALERIA ══ -->
+<section id="galeria">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow" style="color:rgba(245,166,35,.8)">Galeria</div>
+      <div class="galeria-title">Veja nossos pets<br>em ação</div>
+      <div class="galeria-sub">Momentos reais de carinho e cuidado aqui na Caninos.</div>
+    </div>
+    <div class="galeria-grid reveal">
+      <div class="galeria-item tall">
+        <img src="assets/g-boxer-fachada.jpg" alt="Boxer em frente à Caninos" />
+      </div>
+      <div class="galeria-item">
+        <img src="assets/g-golden-sorriso.jpg" alt="Golden Retriever feliz" />
+      </div>
+      <div class="galeria-item">
+        <img src="assets/g-shih-tzu.jpg" alt="Shih Tzu produzido" />
+      </div>
+      <div class="galeria-item">
+        <img src="assets/g-maltese-laco.jpg" alt="Maltês com laço" />
+      </div>
+      <div class="galeria-item">
+        <img src="assets/banho-servico.png" alt="Pomerânia no banho" />
+      </div>
+      <div class="galeria-item">
+        <img src="assets/creche-indoor-servico.png" alt="Dogs na creche" />
+      </div>
+      <div class="galeria-item">
+        <img src="assets/g-maltese.jpg" alt="Maltês fofo" />
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ PRECOS ══ -->
+<section id="precos" class="section">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Preços</div>
+      <h2 class="section-title">Transparência em<br>cada atendimento.</h2>
+      <p class="section-sub">Valores conforme o porte e raça do pet. Dúvidas? É só chamar no WhatsApp.</p>
+    </div>
+    <div class="precos-grid">
+      <div class="preco-card reveal">
+        <div class="preco-porte"><span style="display:inline-flex;align-items:center;gap:6px;background:var(--orange-light);color:var(--orange-dark);font-size:11px;font-weight:800;letter-spacing:1.5px;padding:5px 12px;border-radius:100px">🛁 Banho &amp; Tosa</span></div>
+        <div class="preco-name">Banho &amp; Tosa</div>
+        <div class="preco-value">R$85</div>
+        <div class="preco-desde">a partir de</div>
+        <div class="preco-divider"></div>
+        <ul class="preco-items">
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Shampoo e condicionador premium</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Secagem profissional</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Cromoterapia inclusa</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Ozonioterapia inclusa</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Perfume e limpeza de ouvido</li>
+        </ul>
+        <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20agendar%20banho%20e%20tosa!" class="btn-wa-sm" target="_blank">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar agora
+        </a>
+      </div>
+      <div class="preco-card destaque reveal">
+        <div class="preco-porte"><span style="display:inline-flex;align-items:center;gap:6px;background:rgba(245,166,35,.18);color:var(--orange);font-size:11px;font-weight:800;letter-spacing:1.5px;padding:5px 12px;border-radius:100px">🏠 Diária</span></div>
+        <div class="preco-name">Creche Indoor</div>
+        <div class="preco-value">R$45</div>
+        <div class="preco-desde">a partir de</div>
+        <div class="preco-divider"></div>
+        <ul class="preco-items">
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Ambiente 100% coberto</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Socialização supervisionada</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Equipe presente o dia todo</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Faça chuva ou faça sol</li>
+        </ul>
+        <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20informações%20sobre%20a%20Creche%20Indoor!" class="btn-wa-sm" target="_blank" rel="noopener noreferrer">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar agora
+        </a>
+      </div>
+      <div class="preco-card reveal">
+        <div class="preco-porte"><span style="display:inline-flex;align-items:center;gap:6px;background:var(--orange-light);color:var(--orange-dark);font-size:11px;font-weight:800;letter-spacing:1.5px;padding:5px 12px;border-radius:100px">🌙 Hospedagem</span></div>
+        <div class="preco-name">Hotel</div>
+        <div class="preco-value">R$120</div>
+        <div class="preco-desde">a partir de</div>
+        <div class="preco-divider"></div>
+        <ul class="preco-items">
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Acomodação individual</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Alimentação controlada</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Acompanhamento constante</li>
+          <li><span class="preco-check"><svg viewBox="0 0 12 12" fill="none"><path d="M2 6l3 3 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></span> Conforto e segurança total</li>
+        </ul>
+        <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20informações%20sobre%20o%20Hotel%20para%20pets!" class="btn-wa-sm" target="_blank">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Agendar agora
+        </a>
+      </div>
+    </div>
+    <div class="pagamento-row">
+      <span class="pagamento-label">Formas de pagamento:</span>
+      <span class="pagamento-tag">💳 Crédito</span>
+      <span class="pagamento-tag">💳 Débito</span>
+      <span class="pagamento-tag">📱 PIX</span>
+      <span class="pagamento-tag">💵 Dinheiro</span>
+    </div>
+  </div>
+</section>
+
+<!-- ══ ALÉM DO BANHO E TOSA ══ -->
+<section id="alem" style="background:var(--off-white);padding:80px 0;">
+  <div class="container">
+    <div style="text-align:center;margin-bottom:52px" class="reveal">
+      <div class="eyebrow" style="justify-content:center">Muito mais que banho e tosa</div>
+      <h2 class="section-title">E não é só isso que<br>a Caninos oferece…</h2>
+      <p class="section-sub" style="max-width:500px;margin:14px auto 0">Aqui o seu pet tem tudo que precisa em um único lugar.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:28px" class="reveal alem-grid">
+      <div style="text-align:center;padding:32px 20px;background:#fff;border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow)">
+        <div style="width:64px;height:64px;border-radius:50%;background:var(--orange-light);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:28px">🌙</div>
+        <div style="font-family:var(--font-head);font-size:18px;font-weight:900;color:var(--charcoal);margin-bottom:10px">Hotel</div>
+        <p style="font-size:14px;color:var(--brown-mid);line-height:1.65">Acomodação confortável e segura para quando você precisar viajar ou se ausentar.</p>
+      </div>
+      <div style="text-align:center;padding:32px 20px;background:#fff;border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow)">
+        <div style="width:64px;height:64px;border-radius:50%;background:var(--orange-light);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:28px">🏠</div>
+        <div style="font-family:var(--font-head);font-size:18px;font-weight:900;color:var(--charcoal);margin-bottom:10px">Creche Indoor</div>
+        <p style="font-size:14px;color:var(--brown-mid);line-height:1.65">Seu pet socializando e brincando o dia todo em ambiente coberto — faça chuva ou faça sol.</p>
+      </div>
+      <div style="text-align:center;padding:32px 20px;background:#fff;border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow)">
+        <div style="width:64px;height:64px;border-radius:50%;background:var(--orange-light);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:28px">🎓</div>
+        <div style="font-family:var(--font-head);font-size:18px;font-weight:900;color:var(--charcoal);margin-bottom:10px">Adestramento</div>
+        <p style="font-size:14px;color:var(--brown-mid);line-height:1.65">Treinamento comportamental com método positivo para um pet mais equilibrado e feliz.</p>
+      </div>
+      <div style="text-align:center;padding:32px 20px;background:#fff;border-radius:var(--radius);border:1px solid var(--border);box-shadow:var(--shadow)">
+        <div style="width:64px;height:64px;border-radius:50%;background:var(--orange-light);display:flex;align-items:center;justify-content:center;margin:0 auto 18px;font-size:28px">🛒</div>
+        <div style="font-family:var(--font-head);font-size:18px;font-weight:900;color:var(--charcoal);margin-bottom:10px">Produtos</div>
+        <p style="font-size:14px;color:var(--brown-mid);line-height:1.65">Ração, petiscos, acessórios e produtos de higiene selecionados para o bem-estar do seu pet.</p>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:40px" class="reveal">
+      <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20saber%20mais%20sobre%20os%20serviços%20da%20Caninos!" class="btn-wa" target="_blank" rel="noopener">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Falar com a equipe
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ TAXI DOG ══ -->
+<section id="taxidog" style="background:var(--charcoal);padding:72px 0;">
+  <div class="container">
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center" class="reveal">
+      <div>
+        <div class="eyebrow" style="color:rgba(245,166,35,.8)">Diferencial exclusivo</div>
+        <h2 class="section-title" style="color:#fff">Taxi Dog: buscamos<br>e levamos o seu pet.</h2>
+        <p style="font-size:17px;color:rgba(255,255,255,.55);line-height:1.75;margin-top:16px;margin-bottom:32px">Sem precisar sair de casa. A Caninos busca o seu pet, cuida com todo o carinho e profissionalismo, e devolve lindo e cheiroso na sua porta.</p>
+        <div style="display:flex;flex-direction:column;gap:16px;margin-bottom:36px">
+          <div style="display:flex;align-items:center;gap:14px">
+            <div style="width:44px;height:44px;border-radius:10px;background:rgba(245,166,35,.12);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">📍</div>
+            <p style="font-size:15px;color:rgba(255,255,255,.65);font-weight:400">Raio de atendimento de até <strong style="color:#fff">6 km</strong> da Caninos Pet Shop</p>
+          </div>
+          <div style="display:flex;align-items:center;gap:14px">
+            <div style="width:44px;height:44px;border-radius:10px;background:rgba(245,166,35,.12);display:flex;align-items:center;justify-content:center;font-size:20px;flex-shrink:0">💬</div>
+            <p style="font-size:15px;color:rgba(255,255,255,.65);font-weight:400">Disponibilidade sujeita à agenda — consulte nossa equipe pelo WhatsApp</p>
+          </div>
+        </div>
+        <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20saber%20mais%20sobre%20o%20Taxi%20Dog!" class="btn-wa" target="_blank" rel="noopener">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+          Consultar disponibilidade
+        </a>
+      </div>
+      <div style="display:flex;align-items:center;justify-content:center">
+        <div style="border-radius:20px;overflow:hidden;width:100%;max-height:420px;box-shadow:0 16px 48px rgba(0,0,0,.4)">
+          <img src="assets/creche-golden-bolinhas.jpg" alt="Taxi Dog Caninos" style="width:100%;height:420px;object-fit:cover;object-position:center" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ DEPOIMENTOS ══ -->
+<section id="depoimentos" class="section">
+  <div class="container">
+    <div class="reveal">
+      <div class="eyebrow">Depoimentos</div>
+      <h2 class="section-title">O que dizem os tutores<br>da Caninos.</h2>
+    </div>
+    <div class="depo-grid">
+      <div class="depo-card reveal">
+        <div class="depo-stars">
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+        </div>
+        <p class="depo-text">"Meu cachorro fica super tranquilo lá. O atendimento é muito cuidadoso e ele sempre volta cheiroso e feliz. Recomendo demais para qualquer tutor de Sorocaba!"</p>
+        <div class="depo-divider"></div>
+        <div class="depo-author">
+          <div class="depo-avatar">A</div>
+          <div>
+            <div class="depo-name">Ana Paula S.</div>
+            <div class="depo-pet">Tutora do Bob</div>
+          </div>
+        </div>
+      </div>
+      <div class="depo-card reveal">
+        <div class="depo-stars">
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+        </div>
+        <p class="depo-text">"Lugar aconchegante, equipe super atenciosa. Meu pet nunca ficou tão bem cuidado. Já virou tradição — não levo em nenhum outro lugar em Sorocaba."</p>
+        <div class="depo-divider"></div>
+        <div class="depo-author">
+          <div class="depo-avatar">M</div>
+          <div>
+            <div class="depo-name">Marcos T.</div>
+            <div class="depo-pet">Tutor da Mel</div>
+          </div>
+        </div>
+      </div>
+      <div class="depo-card reveal">
+        <div class="depo-stars">
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+          <svg class="depo-star" viewBox="0 0 16 16"><path d="M8 1l1.85 3.74 4.15.6-3 2.93.71 4.13L8 10.35l-3.71 1.95.71-4.13-3-2.93 4.15-.6L8 1z"/></svg>
+        </div>
+        <p class="depo-text">"Tosa sempre impecável! Eles têm muito cuidado e paciência com meu Golden. Agendamento pelo WhatsApp é rápido e a equipe é muito simpática."</p>
+        <div class="depo-divider"></div>
+        <div class="depo-author">
+          <div class="depo-avatar">C</div>
+          <div>
+            <div class="depo-name">Carla F.</div>
+            <div class="depo-pet">Tutora do Thor</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ COMO FUNCIONA ══ -->
+<section id="como-funciona" class="section">
+  <div class="container">
+    <div style="text-align:center" class="reveal">
+      <div class="eyebrow" style="justify-content:center">Como funciona</div>
+      <h2 class="section-title">Agendar é simples<br>e leva menos de 2 minutos.</h2>
+    </div>
+    <div class="steps-wrap">
+      <div class="steps-line"></div>
+      <div class="step reveal">
+        <div class="step-num">1</div>
+        <div class="step-title">Chame no WhatsApp</div>
+        <div class="step-desc">Envie uma mensagem e aguarde nosso retorno rápido.</div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">2</div>
+        <div class="step-title">Escolha o horário</div>
+        <div class="step-desc">Veja a disponibilidade e confirme a data mais conveniente.</div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">3</div>
+        <div class="step-title">Traga seu pet</div>
+        <div class="step-desc">Venha até nossa loja no Jardim Astro, em Sorocaba.</div>
+      </div>
+      <div class="step reveal">
+        <div class="step-num">4</div>
+        <div class="step-title">Pet pronto!</div>
+        <div class="step-desc">Busque seu animal limpo, cheiroso e muito bem cuidado — ou use o <strong>Taxi Dog</strong> e receba em casa.</div>
+      </div>
+    </div>
+    <div style="text-align:center;margin-top:64px" class="reveal">
+      <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20agendar%20um%20banho%20e%20tosa%20para%20o%20meu%20pet!" class="btn-wa" target="_blank" rel="noopener" style="font-size:18px;padding:19px 44px">
+        <svg width="21" height="21" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        Quero agendar agora
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ══ LOCALIZAÇÃO ══ -->
+<section id="localizacao" class="section">
+  <div class="container">
+    <div class="eyebrow" style="color:rgba(245,166,35,.75)">Localização</div>
+    <h2 class="section-title">Venha nos visitar<br>em Sorocaba.</h2>
+    <div class="loc-grid">
+      <div class="info-group reveal">
+        <div class="info-item">
+          <div class="info-icon">📍</div>
+          <div class="info-content">
+            <h3>Endereço</h3>
+            <p>Rua Fernando Silva, 226<br>Jardim Astro · Sorocaba – SP<br>CEP 18017-158</p>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📱</div>
+          <div class="info-content">
+            <h3>WhatsApp</h3>
+            <a href="https://wa.me/5515988000892" target="_blank">(15) 98800-0892</a>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">🕐</div>
+          <div class="info-content">
+            <h3>Horários de Funcionamento</h3>
+            <table class="horario-table">
+              <tr><td>Segunda a Sexta</td><td>08:00 – 18:30</td></tr>
+              <tr><td>Sábado</td><td>08:00 – 14:00</td></tr>
+              <tr class="fechado"><td>Domingo</td><td>Fechado</td></tr>
+            </table>
+          </div>
+        </div>
+        <div class="info-item">
+          <div class="info-icon">📸</div>
+          <div class="info-content">
+            <h3>Instagram</h3>
+            <a href="https://www.instagram.com/petcaninos/" target="_blank" rel="noopener">@petcaninos</a>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="map-wrap">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.4!2d-47.4621!3d-23.48!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58c4d7b8f51a7%3A0x0!2zUnVhIEZlcm5hbmRvIFNpbHZhLCAyMjYgLSBKYXJkaW0gQXN0cm8sIFNvcm9jYWJhIC0gU1A!5e0!3m2!1spt-BR!2sbr!4v1"
+            allowfullscreen loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            title="Localização Caninos Pet Shop"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══ CTA FINAL ══ -->
+<section id="cta-final">
+  <div class="container reveal" style="text-align:center">
+    <div class="eyebrow" style="justify-content:center;color:rgba(28,20,16,.45)">Pronto para começar?</div>
+    <h2 class="section-title">Agende agora e deixe<br>o seu pet nas mãos certas.</h2>
+    <p class="section-sub" style="max-width:480px;margin:16px auto 40px">Resposta rápida, atendimento humanizado e cuidado com quem você mais ama. É só chamar.</p>
+    <a href="https://wa.me/5515988000892?text=Olá!%20Quero%20agendar%20um%20banho%20e%20tosa%20para%20o%20meu%20pet!" class="btn-wa" target="_blank" rel="noopener" style="font-size:19px;padding:21px 52px">
+      <svg width="23" height="23" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+      Chamar no WhatsApp
+    </a>
+  </div>
+</section>
+
+<!-- ══ FOOTER ══ -->
+<footer>
+  <div class="container">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="assets/logo-caninos.jpg" alt="Caninos" />
+        <span class="footer-logo-text">Caninos Pet Shop</span>
+      </div>
+      <div class="footer-links">
+        <a href="#servicos">Serviços</a>
+        <a href="#precos">Preços</a>
+        <a href="#como-funciona">Como funciona</a>
+        <a href="#localizacao">Localização</a>
+        <a href="https://www.instagram.com/petcaninos/" target="_blank">Instagram</a>
+      </div>
+      <p class="footer-copy">
+        © 2026 Caninos Pet Shop · MBisordi Petshop Ltda · Sorocaba, SP<br>
+        Rua Fernando Silva, 226 · Jardim Astro · (15) 98800-0892
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- ══ FLOATING BUTTON ══ -->
+<a class="float-wa" href="https://wa.me/5515988000892?text=Olá!%20Quero%20agendar%20um%20banho%20e%20tosa!" target="_blank" rel="noopener" aria-label="Agendar pelo WhatsApp">
+  <span class="float-label">Agende agora!</span>
+  <svg width="30" height="30" viewBox="0 0 24 24" fill="white"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+</a>
+
+<!-- ══ TWEAKS PANEL ══ -->
+<div id="tweaks-panel">
+  <h4>Tweaks</h4>
+  <div class="tw-row">
+    <label>Hero</label>
+    <select id="tw-hero">
+      <option value="dark">Escuro (padrão)</option>
+      <option value="orange">Laranja vibrante</option>
+      <option value="light">Claro elegante</option>
+    </select>
+  </div>
+  <div class="tw-row">
+    <label>Cor de acento</label>
+    <input type="color" id="tw-color" value="#F5A623" />
+  </div>
+  <div class="tw-row">
+    <label>Tamanho do texto</label>
+    <select id="tw-size">
+      <option value="17px">Médio</option>
+      <option value="19px" selected>Grande (padrão)</option>
+      <option value="21px">Muito grande</option>
+    </select>
+  </div>
+</div>
+
+<script>
+  // WhatsApp helper — abre em nova aba garantido
+  function abrirWA(msg) {
+    var num = '5515988000892';
+    var url = 'https://wa.me/' + num + (msg ? '?text=' + encodeURIComponent(msg) : '');
+    window.open(url, '_blank', 'noopener,noreferrer');
+  }
+  document.querySelectorAll('a[href*="wa.me"]').forEach(function(el) {
+    el.addEventListener('click', function(e) {
+      e.preventDefault();
+      var href = el.getAttribute('href');
+      window.open(href, '_blank', 'noopener,noreferrer');
+    });
+  });
+
+  // NAV SCROLL
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => navbar.classList.toggle('scrolled', scrollY > 40));
+
+  // SCROLL REVEAL — hero always visible, rest on scroll
+  const heroRevs = document.querySelectorAll('#hero .reveal');
+  heroRevs.forEach((el, i) => setTimeout(() => el.classList.add('in'), 80 + i * 120));
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach((e, i) => {
+      if (e.isIntersecting) {
+        setTimeout(() => e.target.classList.add('in'), i * 70);
+        obs.unobserve(e.target);
+      }
+    });
+  }, { threshold: 0.08 });
+  document.querySelectorAll('.reveal:not(#hero .reveal)').forEach(el => obs.observe(el));
+
+  // COUNTER ANIMATION
+  const proofObs = new IntersectionObserver(entries => {
+    if (!entries[0].isIntersecting) return;
+    document.querySelectorAll('[data-target]').forEach(el => {
+      const target = +el.dataset.target;
+      const prefix = el.dataset.prefix || '';
+      const suffix = el.dataset.suffix || '';
+      let v = 0;
+      const step = Math.max(1, Math.ceil(target / 55));
+      const t = setInterval(() => {
+        v = Math.min(v + step, target);
+        el.textContent = prefix + v + suffix;
+        if (v >= target) clearInterval(t);
+      }, 22);
+    });
+    proofObs.disconnect();
+  }, { threshold: 0.3 });
+  const proofBar = document.getElementById('proof-bar');
+  if (proofBar) proofObs.observe(proofBar);
+
+  // TWEAKS
+  const TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{"heroStyle":"dark","accentColor":"#F5A623","fontSize":"19px"}/*EDITMODE-END*/;
+  let ts = { ...TWEAK_DEFAULTS };
+
+  function applyTweaks(s) {
+    document.documentElement.style.setProperty('--orange', s.accentColor);
+    document.documentElement.style.setProperty('--base-size', s.fontSize);
+    const hero = document.getElementById('hero');
+    if (s.heroStyle === 'dark')   { hero.style.background = '#1C1410'; }
+    if (s.heroStyle === 'orange') { hero.style.background = s.accentColor; }
+    if (s.heroStyle === 'light')  { hero.style.background = '#FDFAF5'; }
+  }
+  applyTweaks(ts);
+
+  document.getElementById('tw-color').addEventListener('input', e => {
+    ts.accentColor = e.target.value; applyTweaks(ts);
+    window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { accentColor: e.target.value } }, '*');
+  });
+  document.getElementById('tw-hero').addEventListener('change', e => {
+    ts.heroStyle = e.target.value; applyTweaks(ts);
+    window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { heroStyle: e.target.value } }, '*');
+  });
+  document.getElementById('tw-size').addEventListener('change', e => {
+    ts.fontSize = e.target.value; applyTweaks(ts);
+    window.parent.postMessage({ type: '__edit_mode_set_keys', edits: { fontSize: e.target.value } }, '*');
+  });
+
+  window.addEventListener('message', e => {
+    if (e.data?.type === '__activate_edit_mode')   document.getElementById('tweaks-panel').style.display = 'block';
+    if (e.data?.type === '__deactivate_edit_mode') document.getElementById('tweaks-panel').style.display = 'none';
+  });
+  window.parent.postMessage({ type: '__edit_mode_available' }, '*');
+</script>
+</body>
+</html>
